@@ -24,7 +24,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.8"
+            android:layout_weight="1"
             android:background="@drawable/bg">
 
             <ImageView
@@ -46,7 +46,7 @@
                 android:fontFamily="@font/sf_pro_text_bold"
                 android:text="Log In"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="@dimen/_20ssp" />
 
 
 

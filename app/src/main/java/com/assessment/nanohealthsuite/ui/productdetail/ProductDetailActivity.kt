@@ -39,12 +39,12 @@ class ProductDetailActivity : AppCompatActivity() {
         binding.iconUpDown.setOnClickListener {
             if (binding.layoutRating.isVisible) {
                 binding.layoutRating.visibility = View.GONE
-                binding.iconUpDown.setImageDrawable(null)
-                binding.iconUpDown.setImageDrawable(resources.getDrawable(R.drawable.icon_down))
+                binding.iconUpDown.background = resources.getDrawable(R.drawable.icon_down)
+
             } else {
-                binding.iconUpDown.setImageDrawable(null)
+
                 binding.layoutRating.visibility = View.VISIBLE
-                binding.iconUpDown.setImageDrawable(resources.getDrawable(R.drawable.icon_up))
+                binding.iconUpDown.background = resources.getDrawable(R.drawable.icon_up)
             }
         }
         binding.imageViewBack.setOnClickListener {

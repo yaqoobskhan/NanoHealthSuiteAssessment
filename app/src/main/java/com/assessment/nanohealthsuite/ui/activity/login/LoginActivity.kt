@@ -42,8 +42,8 @@ class LoginActivity : AppCompatActivity(), ILogInHandler {
                 )
             )
         }
-        viewModel.username = "mor_2314"
-        viewModel.password = "83r5^_"
+        //viewModel.username = "mor_2314"
+        //viewModel.password = "83r5^_"
     }
 
     private fun setUpViewModel() {
@@ -73,8 +73,8 @@ class LoginActivity : AppCompatActivity(), ILogInHandler {
     private fun setUpObservers() {
         viewModel.getLogInResult().observe(this) { result ->
             when (result) {
-                "Invalid username" -> {
-                    binding.usernmae.error = "Please enter valid username/msisdn"
+                "Invalid email" -> {
+                    binding.usernmae.error = "Please enter valid email"
                     binding.usernmae.requestFocus()
                 }
                 "Invalid password" -> {

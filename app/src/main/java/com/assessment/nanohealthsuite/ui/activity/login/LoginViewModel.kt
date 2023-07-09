@@ -35,7 +35,7 @@ class LoginViewModel(private val repository: RepositoryLogin) : ViewModel() {
     fun performValidation(): Boolean {
 
         if (username.isBlank()) {
-            logInResult.value = "Invalid username"
+            logInResult.value = "Invalid email"
             return false
         }
 
