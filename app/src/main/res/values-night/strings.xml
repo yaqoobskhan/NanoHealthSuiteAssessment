@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_bg">Login Background Image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="need_help">Need Help?</string>
+    <string name="continue_text">Continue</string>
+    <string name="product_image">Product Image</string>
+    <string name="ok">Ok</string>
+    <string name="order_now">Order Now</string>
+</resources>
